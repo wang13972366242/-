@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="43g-VY-n4V">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me News Controller-->
+        <scene sceneID="YNn-kN-0h1">
+            <objects>
+                <viewController id="43g-VY-n4V" customClass="WQMeNewsController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WtN-dE-CMl"/>
+                        <viewControllerLayoutGuide type="bottom" id="7MC-Xa-pJG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hUa-Fb-vdj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3c-fj-v2q">
+                                <frame key="frameInset" minX="10" minY="69" width="580" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L3c-fj-v2q" firstAttribute="leading" secondItem="hUa-Fb-vdj" secondAttribute="leading" constant="10" id="1xr-MJ-CP3"/>
+                            <constraint firstItem="L3c-fj-v2q" firstAttribute="top" secondItem="WtN-dE-CMl" secondAttribute="bottom" constant="49" id="L0t-3U-5Hi"/>
+                            <constraint firstAttribute="trailing" secondItem="L3c-fj-v2q" secondAttribute="trailing" constant="10" id="c9s-oi-nxj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Vj-o9-STN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="192"/>
+        </scene>
+    </scenes>
+</document>

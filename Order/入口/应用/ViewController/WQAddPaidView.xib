@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WQAddPaidView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="调休时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HP-N7-sQj">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3fw-G0-NRn"/>
+                        <constraint firstAttribute="width" constant="70" id="BYW-Ia-0fS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="调至时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihY-dj-fhS">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="UHA-Hs-OlB"/>
+                        <constraint firstAttribute="width" constant="70" id="ur2-1i-bbn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2016-11-14" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JLF-N0-tJ7">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="xWY-iN-3bk"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a07-ND-bUz">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="JKC-cQ-SsU"/>
+                        <constraint firstAttribute="width" constant="60" id="Kox-eZ-uLR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="一天" backgroundImage="chat_btn_recording_n">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RDj-lS-xXK">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="5PW-0C-4Ec"/>
+                        <constraint firstAttribute="height" constant="30" id="m5b-Ds-yNp"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1l-oO-ZIC">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="1fd-nA-mFB"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="ETe-HA-fnv"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="fRx-So-DmE"/>
+                        <constraint firstAttribute="height" constant="30" id="rqm-Bj-Lp6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="一天" backgroundImage="chat_btn_recording_n">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4L-hR-xH8">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="7K4-LN-tE0"/>
+                        <constraint firstAttribute="width" constant="100" id="ar6-RW-hcq"/>
+                    </constraints>
+                    <state key="normal" title="确认调休" backgroundImage="chat_btn_recording_n">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="a07-ND-bUz" firstAttribute="centerY" secondItem="JLF-N0-tJ7" secondAttribute="centerY" id="1Dg-Lo-mLD"/>
+                <constraint firstItem="v4L-hR-xH8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1lv-oF-2zL"/>
+                <constraint firstItem="ihY-dj-fhS" firstAttribute="top" secondItem="9HP-N7-sQj" secondAttribute="bottom" constant="10" id="AOx-9a-EKu"/>
+                <constraint firstItem="RDj-lS-xXK" firstAttribute="centerY" secondItem="ihY-dj-fhS" secondAttribute="centerY" id="M3v-0l-GpH"/>
+                <constraint firstItem="JLF-N0-tJ7" firstAttribute="centerY" secondItem="9HP-N7-sQj" secondAttribute="centerY" id="PL7-oq-6fM"/>
+                <constraint firstItem="m1l-oO-ZIC" firstAttribute="centerY" secondItem="RDj-lS-xXK" secondAttribute="centerY" id="RSV-Z1-0DJ"/>
+                <constraint firstItem="m1l-oO-ZIC" firstAttribute="leading" secondItem="RDj-lS-xXK" secondAttribute="trailing" constant="20" id="RhQ-nu-YeU"/>
+                <constraint firstItem="JLF-N0-tJ7" firstAttribute="leading" secondItem="9HP-N7-sQj" secondAttribute="trailing" constant="5" id="Weu-4w-Hya"/>
+                <constraint firstItem="9HP-N7-sQj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ZL5-Eg-MWi"/>
+                <constraint firstItem="RDj-lS-xXK" firstAttribute="leading" secondItem="ihY-dj-fhS" secondAttribute="trailing" constant="5" id="bU0-JU-hhf"/>
+                <constraint firstItem="ihY-dj-fhS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ctP-ni-Eba"/>
+                <constraint firstItem="a07-ND-bUz" firstAttribute="leading" secondItem="JLF-N0-tJ7" secondAttribute="trailing" constant="20" id="lg7-F5-Fsp"/>
+                <constraint firstItem="9HP-N7-sQj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="mpw-tj-jK8"/>
+                <constraint firstItem="v4L-hR-xH8" firstAttribute="top" secondItem="RDj-lS-xXK" secondAttribute="bottom" constant="20" id="zDM-Ks-hTT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="endLongTF" destination="m1l-oO-ZIC" id="AHk-Xj-C4Y"/>
+                <outlet property="endTF" destination="RDj-lS-xXK" id="Hkb-Z4-zB5"/>
+                <outlet property="longabel" destination="a07-ND-bUz" id="g1A-5v-7gV"/>
+                <outlet property="startTF" destination="JLF-N0-tJ7" id="EAb-8h-mSg"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="-248"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chat_btn_recording_n" width="255" height="36"/>
+    </resources>
+</document>

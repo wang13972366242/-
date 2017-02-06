@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980760.924965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980776.807106"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980777.510343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980782.641655"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980784.252386"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980844.59769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980905.697862"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980906.408726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/SonContentVC.m"
+            timestampString = "491980907.353234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/PositionView/PositionFrameVC.m"
+            timestampString = "491989856.729236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-completeBtn:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x6d88;&#x606f;/OrganizedMessage.m"
+            timestampString = "498741782.390466"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "@implementation OrganizedMessage"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x6d88;&#x606f;/OrganizedMessage.m"
+            timestampString = "498741782.390466"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "@implementation OrganizedMessage"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x6d88;&#x606f;/OrganizedMessage.m"
+            timestampString = "498740516.297018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "@implementation OrganizedMessage"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x767b;&#x5f55;&#x754c;&#x9762;/WQSignController.m"
+            timestampString = "499154961.555447"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "-loadLoginData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x65b0;&#x7528;&#x6237;&#x6ce8;&#x518c;/WQActivationCodeVC.m"
+            timestampString = "499155315.629505"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "511"
+            endingLineNumber = "511"
+            landmarkName = "-AFNetWorkingBuyVerity"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WQActivationCodeVC AFNetWorkingBuyVerity]"
+                  moduleName = "Order"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wang/Desktop/%E6%9C%89%E5%BA%8F/%E6%9C%89%E5%BA%8F%E6%AD%A3%E7%89%88/10-26/Order%209-14/Order/%E6%B3%A8%E5%86%8C/%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C/WQActivationCodeVC.m"
+                  timestampString = "499155315.847372"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "512"
+                  endingLineNumber = "512"
+                  offsetFromSymbolStart = "1953">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[WQActivationCodeVC AFNetWorkingBuyVerity]_block_invoke"
+                  moduleName = "Order"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wang/Desktop/%E6%9C%89%E5%BA%8F/%E6%9C%89%E5%BA%8F%E6%AD%A3%E7%89%88/10-26/Order%209-14/Order/%E6%B3%A8%E5%86%8C/%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C/WQActivationCodeVC.m"
+                  timestampString = "499155315.849251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "515"
+                  endingLineNumber = "515"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

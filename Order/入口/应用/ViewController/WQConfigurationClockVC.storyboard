@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UDS-DR-gr1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Configuration ClockVC-->
+        <scene sceneID="PxY-t3-gCS">
+            <objects>
+                <viewController id="UDS-DR-gr1" customClass="WQConfigurationClockVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ulI-Qs-b42"/>
+                        <viewControllerLayoutGuide type="bottom" id="Znn-1o-qVC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OVY-DD-1Dy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打卡的方式:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgS-RR-ckJ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="7tJ-MC-drK"/>
+                                    <constraint firstAttribute="height" constant="21" id="D72-iv-sH5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drS-7I-Egu">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0oV-lR-U47"/>
+                                    <constraint firstAttribute="height" constant="30" id="cza-C4-Fez"/>
+                                </constraints>
+                                <state key="normal" title="WIFI" backgroundImage="chat_btn_recording_n">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbi-HF-Tti">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HwI-cM-ffC"/>
+                                    <constraint firstAttribute="width" constant="50" id="RMW-mR-IwT"/>
+                                </constraints>
+                                <state key="normal" title="GPS" backgroundImage="chat_btn_recording_n">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="chat_btn_recording_n">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLj-vv-4d6">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="JSb-gW-8rJ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HCi-bp-4xo">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Co9-vF-5U6"/>
+                                    <constraint firstAttribute="width" constant="150" id="NeV-jm-KV3"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="chat_btn_recording_n">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="成对打卡单次打卡">
+                                            <attributes>
+                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="drS-7I-Egu" firstAttribute="top" secondItem="ulI-Qs-b42" secondAttribute="bottom" constant="5" id="7GU-L6-Jk4"/>
+                            <constraint firstItem="drS-7I-Egu" firstAttribute="leading" secondItem="ZgS-RR-ckJ" secondAttribute="trailing" constant="10" id="BFY-so-OS0"/>
+                            <constraint firstItem="gbi-HF-Tti" firstAttribute="top" secondItem="drS-7I-Egu" secondAttribute="bottom" constant="5" id="Dip-M7-bwy"/>
+                            <constraint firstItem="ZgS-RR-ckJ" firstAttribute="top" secondItem="ulI-Qs-b42" secondAttribute="bottom" constant="10" id="O1q-xf-Ypf"/>
+                            <constraint firstItem="hLj-vv-4d6" firstAttribute="leading" secondItem="OVY-DD-1Dy" secondAttribute="leading" id="Top-66-ItM"/>
+                            <constraint firstAttribute="trailing" secondItem="hLj-vv-4d6" secondAttribute="trailing" id="V2h-jk-q9H"/>
+                            <constraint firstItem="ZgS-RR-ckJ" firstAttribute="leading" secondItem="OVY-DD-1Dy" secondAttribute="leading" constant="10" id="c2r-uT-ffN"/>
+                            <constraint firstItem="hLj-vv-4d6" firstAttribute="top" secondItem="gbi-HF-Tti" secondAttribute="bottom" constant="5" id="djk-MC-IzW"/>
+                            <constraint firstItem="HCi-bp-4xo" firstAttribute="leading" secondItem="OVY-DD-1Dy" secondAttribute="leading" constant="10" id="dkZ-eD-9yq"/>
+                            <constraint firstItem="gbi-HF-Tti" firstAttribute="leading" secondItem="drS-7I-Egu" secondAttribute="leading" id="i6t-W5-MDQ"/>
+                            <constraint firstItem="HCi-bp-4xo" firstAttribute="top" secondItem="hLj-vv-4d6" secondAttribute="bottom" constant="10" id="wwt-0F-tSS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7H-L3-KLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="-58.020989505247378"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat_btn_recording_n" width="255" height="36"/>
+    </resources>
+</document>

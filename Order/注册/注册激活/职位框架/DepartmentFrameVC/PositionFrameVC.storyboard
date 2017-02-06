@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="R2t-4B-1mR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Position FrameVC-->
+        <scene sceneID="ta3-Ai-FMN">
+            <objects>
+                <viewController id="R2t-4B-1mR" customClass="PositionFrameVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oHc-TI-sRT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iqy-ar-NmW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w79-tp-UaV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="部门及职位架构预设:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T66-qD-SOm">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebH-Cx-t0y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="GQg-vp-3YH"/>
+                                </constraints>
+                                <string key="text">  请您对贵公司的所有部门及各部门下所设置的职位和职位等级进行预定义。
+    1.添加直属职位和部门如:某某公司董事长+职位等级 ,综合部，
+    2.请先添加部门再对该部门或者上一个部门的职位和职位的等级进行设置，
+       (1)如果部门有多个职位可以一起添加，部门名称不能重复。例如综合部-&gt;(人力资源，行政后勤)  
+       (2)如果部门只有一个职位,如人力资源 -&gt; (员工,等级);
+  您公司员工在注册时根据已经设置好的部门职位进行选择</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ebH-Cx-t0y" firstAttribute="top" secondItem="T66-qD-SOm" secondAttribute="bottom" constant="5" id="2OF-Ot-OK9"/>
+                            <constraint firstAttribute="trailing" secondItem="T66-qD-SOm" secondAttribute="trailing" id="Dya-kG-buT"/>
+                            <constraint firstItem="T66-qD-SOm" firstAttribute="leading" secondItem="w79-tp-UaV" secondAttribute="leading" constant="15" id="gcR-6i-7hN"/>
+                            <constraint firstItem="T66-qD-SOm" firstAttribute="top" secondItem="oHc-TI-sRT" secondAttribute="bottom" constant="5" id="hby-hJ-DZN"/>
+                            <constraint firstAttribute="trailing" secondItem="ebH-Cx-t0y" secondAttribute="trailing" constant="5" id="rq5-ED-kUR"/>
+                            <constraint firstItem="ebH-Cx-t0y" firstAttribute="leading" secondItem="w79-tp-UaV" secondAttribute="leading" constant="25" id="ySn-MC-IMJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="B6E-uy-Lr7">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="DUS-8O-gsY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pVS-VA-S2z">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="完成">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="completeBtn:" destination="R2t-4B-1mR" eventType="touchUpInside" id="jpS-Av-YwM"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="setLabel" destination="ebH-Cx-t0y" id="12j-k0-u7S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K7Q-cn-VSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3607" y="678"/>
+        </scene>
+    </scenes>
+</document>

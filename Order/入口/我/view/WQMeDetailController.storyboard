@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RMT-g6-Vkn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me Detail Controller-->
+        <scene sceneID="fkJ-Mb-2E9">
+            <objects>
+                <viewController id="RMT-g6-Vkn" customClass="WQMeDetailController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qLY-Fj-7hS"/>
+                        <viewControllerLayoutGuide type="bottom" id="hoT-Qk-BAg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="udW-P7-Wna">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdU-cQ-MSZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="YuZ-5R-dRA"/>
+                                </constraints>
+                                <state key="normal" title="修改信息">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title="确认"/>
+                                <connections>
+                                    <action selector="changeInfo:" destination="RMT-g6-Vkn" eventType="touchUpInside" id="uQd-oZ-HvS"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yoE-fd-sHU">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SdU-cQ-MSZ" firstAttribute="centerX" secondItem="udW-P7-Wna" secondAttribute="centerX" id="1tF-Nf-I1M"/>
+                            <constraint firstItem="hoT-Qk-BAg" firstAttribute="top" secondItem="yoE-fd-sHU" secondAttribute="bottom" constant="200" id="2c7-03-Jg2"/>
+                            <constraint firstItem="yoE-fd-sHU" firstAttribute="top" secondItem="qLY-Fj-7hS" secondAttribute="bottom" id="4aQ-E1-312"/>
+                            <constraint firstAttribute="trailing" secondItem="SdU-cQ-MSZ" secondAttribute="trailing" constant="20" id="GTH-5A-Diq"/>
+                            <constraint firstItem="SdU-cQ-MSZ" firstAttribute="top" secondItem="yoE-fd-sHU" secondAttribute="bottom" id="Uh9-14-LhS"/>
+                            <constraint firstItem="yoE-fd-sHU" firstAttribute="leading" secondItem="udW-P7-Wna" secondAttribute="leading" id="e7y-Nf-cJc"/>
+                            <constraint firstItem="SdU-cQ-MSZ" firstAttribute="leading" secondItem="udW-P7-Wna" secondAttribute="leading" constant="20" id="ixh-Gx-Zuq"/>
+                            <constraint firstAttribute="trailing" secondItem="yoE-fd-sHU" secondAttribute="trailing" id="ohl-xq-vC8"/>
+                            <constraint firstItem="hoT-Qk-BAg" firstAttribute="top" secondItem="SdU-cQ-MSZ" secondAttribute="bottom" constant="5" id="xEg-2J-KIv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2c7-03-Jg2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="changBtn" destination="SdU-cQ-MSZ" id="Vg1-q9-dLZ"/>
+                        <outlet property="tableView" destination="yoE-fd-sHU" id="5ry-L6-JF6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJY-Bb-q5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416.5" y="69.5"/>
+        </scene>
+    </scenes>
+</document>

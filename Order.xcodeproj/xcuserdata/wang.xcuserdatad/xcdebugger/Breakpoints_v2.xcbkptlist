@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014065.14818"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-initWithJbold:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014068.911318"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-getJobTitles:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014077.240479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "-addDepartment:szParentDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014081.029947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "-addDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014083.217774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-removeDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014086.199671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "-addRootJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014087.645582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "-addRootJobTitle:iLevel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014089.762296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "-addJobTitle:szDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014097.480869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
+            landmarkName = "-testObjectString:bl:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014101.88511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "-renameDepartment:newStr:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014103.963836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
+            landmarkName = "-removeJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014106.469834"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "399"
+            endingLineNumber = "399"
+            landmarkName = "-removeJobTitle:departName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014108.572888"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "-_removeRootJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014111.030868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "428"
+            endingLineNumber = "428"
+            landmarkName = "-toString"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014112.123955"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "436"
+            endingLineNumber = "436"
+            landmarkName = "-toJsonObject"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014116.974851"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "472"
+            endingLineNumber = "472"
+            landmarkName = "-_addJobTitle:job:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014122.861114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "512"
+            endingLineNumber = "512"
+            landmarkName = "-_hasJobTitleName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014124.878012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "532"
+            endingLineNumber = "532"
+            landmarkName = "-_getAffectedDeparmentID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014127.049751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "548"
+            endingLineNumber = "548"
+            landmarkName = "-_isAllEmpty"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014127.935873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "554"
+            endingLineNumber = "554"
+            landmarkName = "-_isDepartmentEmpty"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014129.562615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "558"
+            endingLineNumber = "558"
+            landmarkName = "-_isRootJobTitleEmpty"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014131.658982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "571"
+            endingLineNumber = "571"
+            landmarkName = "-_findDepartByName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014135.346631"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "597"
+            endingLineNumber = "597"
+            landmarkName = "-_findDepartIDByName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014138.647214"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
+            landmarkName = "-_addDepartment:newDepartName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014142.219704"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "657"
+            endingLineNumber = "657"
+            landmarkName = "-_hasDepartmentName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014145.027265"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "686"
+            endingLineNumber = "686"
+            landmarkName = "-_generateDepartmentIDforNewChild:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014147.579932"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "702"
+            endingLineNumber = "702"
+            landmarkName = "-_getChildDepartmentCount:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014149.420795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "715"
+            endingLineNumber = "715"
+            landmarkName = "-_getDepartmentID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014151.700832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "735"
+            endingLineNumber = "735"
+            landmarkName = "-getThemeChildDepartmentCount"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014153.697029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "748"
+            endingLineNumber = "748"
+            landmarkName = "-getChildDepartmentCount:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014156.06344"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "757"
+            endingLineNumber = "757"
+            landmarkName = "-getThemeChildDepartmentList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014157.270651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "768"
+            endingLineNumber = "768"
+            landmarkName = "-_departIDListToDepartNameArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014159.057641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "782"
+            endingLineNumber = "782"
+            landmarkName = "-_getDepartNameByID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014161.735359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "809"
+            endingLineNumber = "809"
+            landmarkName = "-getChildDepartmentList:bRec:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014164.338064"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "829"
+            endingLineNumber = "829"
+            landmarkName = "-getChildDepartmentList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014166.186407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "845"
+            endingLineNumber = "845"
+            landmarkName = "-_getChildrenDepartmentID:brec:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502014170.324754"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "902"
+            endingLineNumber = "902"
+            landmarkName = "-getJobtitle"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initWithNameAndLevel:iLevel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-equals:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-nameIs:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "-toString"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "+testStringForJobTitleArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014206.410167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014210.718437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-initWithDepartName:array:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014222.005355"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-toString"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014225.456363"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-AddJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014228.418566"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "-removeJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014230.349903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "-hasJobTitles"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014232.187905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "-hasJobTitles"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014235.828387"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "-equals:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014238.205186"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-canAddJobTitle"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014239.466883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "-getJobTitleCount"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014241.59063"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "-isJobTitleNameExists:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014244.218008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "-nameIs:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedDepartment.m"
+            timestampString = "502014246.777501"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "-RemoveJobTitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014256.963638"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-initWith:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014287.695637"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-initWithCopyDepartmentID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014293.14528"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-initWithNewDepartIDNewLevel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014295.229306"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-getIDAt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014296.758049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "-setIDAt:iValue:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014301.220483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "-getParentLevelID"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014303.07813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "-isChildOf:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014304.681723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "-equals:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014312.408147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "-moveAhead:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014314.112006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "-isRelatedDepartID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014316.206673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "-toString"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganedDepartmentID.m"
+            timestampString = "502014318.461009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "-compareTo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/OrganizedJobTitle.m"
+            timestampString = "502016958.824083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-initWithNameAndLevel:iLevel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502015095.818878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "-addJobTitle:szDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502015154.923189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "484"
+            endingLineNumber = "484"
+            landmarkName = "-_addRootJobTitle:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JobTitleStructure _addRootJobTitle:]"
+                  moduleName = "Order"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wang/Desktop/%E6%9C%89%E5%BA%8F/%E6%9C%89%E5%BA%8F%E6%AD%A3%E7%89%88/12-05/Order%209-14/Order/%E5%9F%BA%E6%9C%AC%E7%B1%BB/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB/organize/%E5%85%AC%E5%85%B1%E7%9A%84%E7%B1%BB/JobTitleStructure.m"
+                  timestampString = "502609514.49907"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "484"
+                  endingLineNumber = "484"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JobTitleStructure _addRootJobTitle:]"
+                  moduleName = "Order"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wang/Desktop/%E6%9C%89%E5%BA%8F/%E6%9C%89%E5%BA%8F%E6%AD%A3%E7%89%88/12-05/Order%209-14/Order/%E5%9F%BA%E6%9C%AC%E7%B1%BB/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB/organize/%E5%85%AC%E5%85%B1%E7%9A%84%E7%B1%BB/JobTitleStructure.m"
+                  timestampString = "502609514.501023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "484"
+                  endingLineNumber = "484"
+                  offsetFromSymbolStart = "169">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502015200.271149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
+            landmarkName = "-_canAddJobTitles"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502015342.370399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "-addJobTitle:szDepartment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/organize/&#x516c;&#x5171;&#x7684;&#x7c7b;/JobTitleStructure.m"
+            timestampString = "502015356.078065"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "477"
+            endingLineNumber = "477"
+            landmarkName = "-_addJobTitle:job:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502015446.543691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-completeBtn:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502017216.608755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "-addSubDepartmentvieWithArrID:title:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502017218.108267"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "-addSubDepartmentvieWithArrID:title:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502018658.246993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-textFieldDidEndEditing:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502018664.119759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "-creatVC:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionFrameVC.m"
+            timestampString = "502018667.900593"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "-PositionViewClickBacek:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018678.778464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "-alertControllerDelagate:indexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018683.075821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "-textFieldDidEndEditing:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018684.413878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "-alertController:indexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018688.728661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-tableView:editActionsForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018693.779913"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-setEditing:animated:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502018695.868491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionView.m"
+            timestampString = "502018718.897402"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "-changBtn:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/RightTableView.m"
+            timestampString = "502042665.071779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-setEditing:animated:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/RightTableView.m"
+            timestampString = "502042665.071779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/SonTableViewCell.m"
+            timestampString = "502018768.100819"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-alertControllerShowWithTheme:suretitle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/SonTableViewCell.m"
+            timestampString = "502018769.376203"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-pushActin:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionView.m"
+            timestampString = "502018790.119778"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "-showKeyBoard:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/PositionView.m"
+            timestampString = "502018792.078921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "-textFieldDidBeginEditing:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502042746.241044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x6ce8;&#x518c;&#x6fc0;&#x6d3b;/&#x804c;&#x4f4d;&#x6846;&#x67b6;/DepartmentFrameVC/LeftTableView.m"
+            timestampString = "502042750.787398"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/Admin/FunctionOperation.m"
+            timestampString = "502082274.223385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-getAdminPrivilegeFlag:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x6ce8;&#x518c;/&#x767b;&#x5f55;&#x754c;&#x9762;/WQSignController.m"
+            timestampString = "502255708.832578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "-testJosn"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Order/&#x57fa;&#x672c;&#x7c7b;/&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;/Admin/PairSwipe.m"
+            timestampString = "502273785.595188"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-initPairSwipWihWithDic:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

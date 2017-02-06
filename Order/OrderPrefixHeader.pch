@@ -1,0 +1,66 @@
+//
+//  OrderPrefixHeader.pch
+//  Order
+//
+//  Created by wang on 16/6/16.
+//  Copyright © 2016年 Particlestechnology. All rights reserved.
+//
+
+#ifndef OrderPrefixHeader_pch
+#define OrderPrefixHeader_pch
+
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#ifdef __OBJC__
+#import "NSData+AES.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "NSObject+MJKeyValue.h"
+#import "MJRefresh.h"
+#import "UIViewExt.h"
+#import "UIImageView+WebCache.h"
+#import "UIColor+HexString.h"
+#import "AppDelegate.h"
+#import "WQRespondView.h"
+#import "MBProgressHUD+Add.h"
+#import "BWNetWorkToll.h"
+#import "SecurityUtil.h"
+#import "CommonFunctions.h"
+#import "OrganizedClientMessage.h"
+#import "UIButton+AFNetworking.h"
+
+#endif
+
+
+
+#define Cookie @"JSESSIONID=68F5B498243EEE6F44253B188C1DCD8F"
+
+//#define baseUrl1 @"http://192.168.200.222:8080/"
+#define baseUrl1  @"http://120.76.124.120/"
+#define kUserDefaultsCookie @"Cookie"
+#define WOrganizedCompany @"OrganizedCompany"
+#define WOrganizedMember @"OrganizedMember"
+#define WOrganizedCompanyBase @"OrganizedCompanyBase"
+#define WOrganizedCompany @"OrganizedCompany"
+#define WOrganizedMemberBase @"OrganizedMemberBase"
+#define WOrganizedActivatonCode @"OrganizedActivatonCode"
+#define kUserDefaultsUnique @"UniqueID"
+#define kUserDefaultsACTVarCode @"ACTVarCode"
+#define WuserForgetPassWordEmial @"WuserForgetPassWordEmial"
+#define WuserForgetPassWordMobile @"WuserForgetPassWordMobile"
+#define WuserAccount @"WuserAccount"
+#define WValidContact @"WValidContact"
+#define WISADMINCODE @"WISADMINCODE"
+
+#define Wfunctions @"Wfunctions"
+
+
+#define Color(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define  APPD (AppDelegate *)[UIApplication sharedApplication].delegate
+
+#define urlString @"https://www.baidu/%@"
+#endif /* OrderPrefixHeader_pch */

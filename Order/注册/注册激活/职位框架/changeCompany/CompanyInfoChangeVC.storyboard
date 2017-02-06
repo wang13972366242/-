@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="11E-cY-T6d">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Company Info ChangeVC-->
+        <scene sceneID="cZ4-sU-V97">
+            <objects>
+                <viewController id="11E-cY-T6d" customClass="CompanyInfoChangeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UMU-dS-Vdz"/>
+                        <viewControllerLayoutGuide type="bottom" id="QDb-tU-Kwy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvH-wY-nI1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A1T-21-wrv">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8r-SS-ajh">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="580" id="06Q-qh-ADH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="N8r-SS-ajh" firstAttribute="leading" secondItem="A1T-21-wrv" secondAttribute="leading" id="9Am-5B-kLr"/>
+                                    <constraint firstItem="N8r-SS-ajh" firstAttribute="centerX" secondItem="A1T-21-wrv" secondAttribute="centerX" id="UBv-MO-KtH"/>
+                                    <constraint firstItem="N8r-SS-ajh" firstAttribute="centerY" secondItem="A1T-21-wrv" secondAttribute="centerY" id="Vmi-Mp-cwZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="N8r-SS-ajh" secondAttribute="bottom" id="dSX-Pe-G1N"/>
+                                    <constraint firstAttribute="trailing" secondItem="N8r-SS-ajh" secondAttribute="trailing" id="fRg-Yd-kSU"/>
+                                    <constraint firstItem="N8r-SS-ajh" firstAttribute="top" secondItem="A1T-21-wrv" secondAttribute="top" id="o5O-QG-8Lx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Vmi-Mp-cwZ"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A1T-21-wrv" secondAttribute="trailing" id="Gxj-tS-EHd"/>
+                            <constraint firstItem="QDb-tU-Kwy" firstAttribute="top" secondItem="A1T-21-wrv" secondAttribute="bottom" id="KJd-qa-mEU"/>
+                            <constraint firstItem="A1T-21-wrv" firstAttribute="leading" secondItem="kvH-wY-nI1" secondAttribute="leading" id="T5f-lg-tSD"/>
+                            <constraint firstItem="A1T-21-wrv" firstAttribute="top" secondItem="UMU-dS-Vdz" secondAttribute="bottom" id="Zrv-cd-szv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scorllview" destination="A1T-21-wrv" id="4uq-ln-vXS"/>
+                        <outlet property="scrollViewHeight" destination="06Q-qh-ADH" id="jCz-DK-05X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C60-zW-i8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="262"/>
+        </scene>
+    </scenes>
+</document>

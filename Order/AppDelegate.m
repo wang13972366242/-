@@ -8,21 +8,122 @@
 
 #import "AppDelegate.h"
 
+#import "WQSignController.h"
+#import "WQSignNaviController.h"
 @interface AppDelegate ()
-
+/** 注册*/
+@property(nonatomic,strong) WQSignController *signVC;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //1.创建窗口
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    [self _voluntarilyLogin];
+  
+ 
+   
     return YES;
 }
 
+
+/**
+ *  注册界面
+ */
+-(void)goLoginViewController{
+
+    //2.加载注册页面
+    _navi = [[UIStoryboard storyboardWithName:@"WQSignController" bundle:nil] instantiateInitialViewController];
+    
+    _window.rootViewController = _navi;
+
+}
+
+- (void)_voluntarilyLogin {
+    
+    //2-----取软件版本号
+    NSString* key=@"CFBundleShortVersionString";
+    NSString* lastVersion=[[NSUserDefaults standardUserDefaults] objectForKey:key];
+    NSString* currentVersion=[NSBundle mainBundle].infoDictionary[key];
+    
+    [self goLoginViewController];
+    
+    
+    if ([currentVersion isEqualToString:lastVersion])
+    {
+        
+        NSUserDefaults *userDefaultes = [NSUserDefaults standardUserDefaults];
+        
+        //读取NSString类型的数据
+        NSString *phoneNumber = [userDefaultes stringForKey:@"phoneNumber"];
+        NSString *passWord = [userDefaultes stringForKey:@"passWord"];
+        //self.isTeacher = [[userDefaultes stringForKey:@"isTeacher"] integerValue];
+        
+        
+        if (phoneNumber.length == 0 || passWord.length == 0) {
+            [self goLoginViewController];
+        }else {
+            
+            
+            //开始拼接Json字符串
+            NSDictionary *dataDictionary= [NSDictionary dictionaryWithObjectsAndKeys:
+                                           phoneNumber,@"mobile", nil];
+            NSString *str = @"user/login";
+            NSString *urlStr = [NSString stringWithFormat:urlString, str];
+            
+    
+            
+            //添加定时器
+            _launchTime = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(_logLaunchTime:) userInfo:nil repeats:YES];
+            
+            //dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            
+        [[NSUserDefaults standardUserDefaults]setObject:currentVersion forKey:key];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    }
+
+}
+
+#pragma mark -- 进入主界面
+- (void)goMain{
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *key = @"CFBundleShortVersionString";
+    NSString* currentVersion=[NSBundle mainBundle].infoDictionary[key];
+    [userDefaults setObject:currentVersion forKey:key];
+    //给标签控制添加根控制器
+    _window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+    
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
+                   {
+                       NSString *name = [[NSUserDefaults standardUserDefaults] stringForKey:@"userName"];
+                       if (name && ![name isKindOfClass:NSNull.class] && [name length])
+                       {
+                           
+                       }
+                   });
+}
+
+#pragma mark -- 记录启动时长
+- (void)_logLaunchTime:(NSTimer *)time {
+    _logLaunchTime ++;
+    NSLog(@"mmkmkmkmkm");
+    if (_logLaunchTime>=5)
+    {
+        [_launchTime invalidate];
+        [self goLoginViewController];
+    }
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    
+    
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
