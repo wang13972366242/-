@@ -17,5 +17,5 @@
 + (NSString *)getWeekday;
 + (unsigned long)timeStrToTimestamp:(NSString *)str;
 + (unsigned long)getMondayTimestamp;
-+(NSCalendar*)dateStringToCalendar:(NSString *)szTime;
++(NSDate*)dateStringToCalendar:(NSString *)szTime;
 @end

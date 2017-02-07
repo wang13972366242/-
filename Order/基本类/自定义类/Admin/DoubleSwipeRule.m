@@ -65,14 +65,14 @@
 
 }
 
--(BOOL)isRuleCheckPass:(NSArray<NSCalendar *> *)clrlist{
+-(BOOL)isRuleCheckPass:(NSArray<NSDate *> *)clrlist{
     if(clrlist == nil || clrlist.count != 2 || clrlist[0] == nil || clrlist[1] == nil ||  ![self isValid]){
         CodeException *Ce =[[CodeException alloc]initWithName:@"FUNCTION_ATTENDANCE_WRONGARGUMENT" reason:@"nil" userInfo:nil];
         [Ce raise];
         
     }
-    NSCalendar *clrFirst = clrlist[0];
-    NSCalendar *clrLast = clrlist[1];
+    NSDate *clrFirst = clrlist[0];
+    NSDate *clrLast = clrlist[1];
     
 #warning -mark  时间
 //    TimeDifference timeDifference = new TimeDifference(clrLast, clrFirst);

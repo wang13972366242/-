@@ -60,8 +60,8 @@
     [formatter setTimeZone:[NSTimeZone systemTimeZone]];
     
     NSDate *date = [formatter dateFromString:szTime];
-    [calendar componentsInTimeZone:[NSTimeZone systemTimeZone] fromDate:date];
-    return calendar;
+    
+    return date;
     
 }
 + (NSDateComponents *)getCurrentDate {

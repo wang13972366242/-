@@ -26,7 +26,7 @@
 -(instancetype)initWithDoubleRuleJosn:(NSString *)jsonString;
 -(NSString *)toString;
 
--(BOOL)isRuleCheckPass:(NSArray<NSCalendar *> *)clrlist;
+-(BOOL)isRuleCheckPass:(NSArray<NSDate *> *)clrlist;
 
 -(BOOL)isRuleConflict:(CheckRule *)rule1 ;
 

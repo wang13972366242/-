@@ -48,7 +48,7 @@ typedef enum Sex{
 /** 职位*/
 @property(nonatomic,strong) NSString *m_szJobTitle;
 /** 生日*/
-@property(nonatomic,strong) NSCalendar *m_cldBirthday;
+@property(nonatomic,strong) NSDate *m_cldBirthday;
 /** 工作地点*/
 @property(nonatomic,strong) NSString *m_szOfficeAddress;
 /** 家庭住址*/
