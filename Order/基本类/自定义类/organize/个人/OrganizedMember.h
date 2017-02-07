@@ -66,7 +66,7 @@ typedef enum Sex{
 /**
  得到对应的生日字符串
  */
--(NSString *)getUserBirthdayString:(NSCalendar *)cld;
+-(NSString *)getUserBirthdayString:(NSDate *)cld;
 /**更改设置用户的邮件地址*/
 -(void)changeUserEmail:(NSString *)szEmail bIsValidated:(BOOL)bIsValidated;
 /**更改设置用户的手机号码*/

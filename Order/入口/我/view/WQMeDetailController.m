@@ -377,7 +377,7 @@
     //url
     NSString * strUrl;
     NSDictionary*params;
-    NSString *timeStr = [CommonFunctions functionsStringFromDate];
+    NSString *timeStr = [CommonFunctions calendarToDateString:[NSDate date]];
     //设置cookie到请求头
     NSDictionary *dic =[[NSUserDefaults standardUserDefaults] objectForKey:kUserDefaultsCookie];
     NSString *cookie = dic[@"Cookie"];

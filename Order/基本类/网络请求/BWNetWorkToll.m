@@ -154,7 +154,7 @@
     //url
     NSString * strUrl  =[NSString stringWithFormat:@"%@ValidateEmailAccount",baseUrl1];
     NSDictionary*params;
-    NSString *timeStr = [CommonFunctions functionsStringFromDate];
+    NSString *timeStr = [CommonFunctions calendarToDateString:[NSDate date]];
     if (verWay == COMPANY_EMAIL) {
         
         NSString *str = [SecurityUtil encryptAESDataToBase64AndKey:emialOrMobile key:timeStr];

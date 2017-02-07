@@ -340,7 +340,7 @@ static NSString *setCell= @"regiCell";
             om.sex = FEMALE;
         }
         
-        om.m_cldBirthday = [CommonFunctions functionsCalednar];
+
         om.m_szHomeAddress =address.text;
         om.m_szSummary = _textView.text;
         om.m_szLandLine =staticnumber.text;

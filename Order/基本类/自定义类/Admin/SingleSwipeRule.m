@@ -20,7 +20,7 @@
 }
 
 
--(instancetype)initWithSwipRuleTimeArea:(TimeValidArea)tmvld timeCompare:(TimeCompare)tmCmp  cld:(NSCalendar*)clr{
+-(instancetype)initWithSwipRuleTimeArea:(TimeValidArea)tmvld timeCompare:(TimeCompare)tmCmp  cld:(NSDate*)clr{
     if (self = [super init]) {
         _m_eTimeValid = tmvld;
         _m_etimeCompareRule = tmCmp;
@@ -188,7 +188,7 @@
         return true;
     }
   
-    NSCalendar *clrtmp = [self _adjustArgumentPerTimeValid:singleRule.m_timeSlot];
+    NSDate *clrtmp = [self _adjustArgumentPerTimeValid:singleRule.m_timeSlot];
     if(_m_etimeCompareRule == BEFORE){
 //        if(clrtmp.after(m_timeSlot)) return true;
     }else{
@@ -197,7 +197,7 @@
     return false;
 }
 
--(NSCalendar *)_adjustArgumentPerTimeValid:(NSCalendar *)clinput{
+-(NSDate *)_adjustArgumentPerTimeValid:(NSDate *)clinput{
     if(clinput == nil) return nil;
     
     return nil;

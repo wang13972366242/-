@@ -152,4 +152,38 @@
  */
 +(BOOL)isValidDayTimeFormat:(NSString *) szTimeString;
 
+
++(NSString *)calendarToDateTimeString:(NSDate *)cld;
+
+
+/**
+ * 把Calendar对象转化为日期时间字符串（格式"yyyy-MM-dd");
+ * @param cld - Calendar对象
+ * @return 日期时间字符串。
+ */
++(NSString *)calendarToDateString:(NSDate *)cld;
+  
+
+/**
+ * 把Calendar对象转化为日期时间字符串（HH:mm:ss");
+ */
++(NSString *)calendarToTimeString:(NSDate *)cld;
+
+
+/**
+ * 把日期时间字符串（格式"yyyy-MM-dd HH:mm:ss") 转化为Calendar对象
+ * @param szTime - 符合格式的字符串
+ * @return 转化后的Calendar对象；（若字符串参数进行{@linkplain CommonFunctions#isStringValid(String...)}判断失败，或者不符合规定格式，则返回null）;
+ */
++(NSDate *)dateTimeStringToCalendar:(NSString *) szTime;
+
+/**
+ * 把日期字符串（格式"yyyy-MM-dd") 转化为Calendar对象
+ */
++(NSDate *)dateStringToCalendar:(NSString *) szTime;
+
+/**
+ * 把日期字符串（格式"HH:mm:ss") 转化为Calendar对象
+ */
++(NSDate *)dateStringToTime:(NSString *) szTime;
 @end

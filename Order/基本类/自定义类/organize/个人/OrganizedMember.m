@@ -156,7 +156,7 @@
 
 
 #warning -mark  NSCalendar转化成字符串
--(NSString *)getUserBirthdayString:(NSCalendar *)cld{
+-(NSString *)getUserBirthdayString:(NSDate *)cld{
     
     return nil;
 }
@@ -382,7 +382,7 @@
             _m_szJobTitle = szValue;
             break;
         case Birthday:{
-//            NSCalendar *cldbirth = [CommonFunctions functionsdateTimeStringToCalendar:szValue];
+            _m_cldBirthday = [CommonFunctions dateTimeStringToCalendar:szValue];
         }
             
             break;
@@ -507,7 +507,7 @@
             szResult = _m_szJobTitle;
             break;
         case Birthday:
-//        szResult = [CommonFunctions functionscalendarToDateTimeString:_m_cldBirthday];
+        szResult = [CommonFunctions calendarToDateTimeString:_m_cldBirthday];
             break;
         case OfficeAddress:
             szResult = _m_szOfficeAddress;

@@ -492,7 +492,7 @@ typedef enum MESSAGE_ARGUMENTS{
     if (![CommonFunctions functionsIsStringValidAfterTrim:pamar] ) {
         return nil;
     }
-    NSString *calendarToDateTimeString = [CommonFunctions functionsStringFromDate];
+    NSString *calendarToDateTimeString = [CommonFunctions calendarToDateString:[NSDate date]];
     NSString *aesEncryptStr = [SecurityUtil encryptAESDataToBase64AndKey:pamar key:calendarToDateTimeString];
     
     NSMutableDictionary *mudic = [NSMutableDictionary dictionary];

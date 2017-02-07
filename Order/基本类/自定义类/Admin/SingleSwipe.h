@@ -90,7 +90,7 @@
 /**
  * 判断用户刷卡时间点是否为有效时间点；
  */
--(BOOL)checkRuleOnUserSwipeTime:(NSCalendar *) clr;
+-(BOOL)checkRuleOnUserSwipeTime:(NSDate *) clr;
 
 -(UserSwipe *)_onUserSwipe:(UserBean *)userBean type:(SWIPENODETYPE)type swipName:(NSString *) szSwipeNodeName;
 @end

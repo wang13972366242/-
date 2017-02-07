@@ -282,7 +282,7 @@
  * @throws OrganizedException 参数异常；
  */
 
--(BOOL)checkRuleOnUserSwipeTime:(NSCalendar *)clrFirst last:(NSCalendar *) clrLast{
+-(BOOL)checkRuleOnUserSwipeTime:(NSDate *)clrFirst last:(NSDate *) clrLast{
     if (![self isValid]) {
         return false;
     }

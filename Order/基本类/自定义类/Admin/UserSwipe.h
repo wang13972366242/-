@@ -12,11 +12,11 @@
 #import "SWIPE_DATA_STAT.h"
 @interface UserSwipe : BaseArgumentList
 
--(instancetype)initUserSwipeWithUserBean:(UserBean *)userBean swipType:(SWIPENODETYPE)swipetype NodeName:(NSString *)szSwipeNodeName datatype:(SWIPEDATATYPE)datatype swipeName:(NSString *)szSwipeName cld:(NSCalendar *)clrSwipeTime;
+-(instancetype)initUserSwipeWithUserBean:(UserBean *)userBean swipType:(SWIPENODETYPE)swipetype NodeName:(NSString *)szSwipeNodeName datatype:(SWIPEDATATYPE)datatype swipeName:(NSString *)szSwipeName cld:(NSDate *)clrSwipeTime;
 
 
--(NSCalendar *) getUserFirstSwipeTime;
--(NSCalendar *) getUserLastSwipeTime;
+-(NSDate *) getUserFirstSwipeTime;
+-(NSDate *) getUserLastSwipeTime;
 
 -(NSString *) toString;
 @end

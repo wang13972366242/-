@@ -157,7 +157,7 @@
  * @throws OrganizedException  参数有误，跳出异常
  */
 
--(void)setLeaveRequestTime:(NSCalendar *)clrFrom timeTo:(NSCalendar *) clrTo{
+-(void)setLeaveRequestTime:(NSDate *)clrFrom timeTo:(NSDate *) clrTo{
     
     NSString *STARTStr =  [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:START];
     
@@ -178,7 +178,7 @@
  * @param clrEnd 终止时间
  * @throws OrganizedException  参数有误，跳出异常
  */
--(void)setOffDutyShiftTime:(NSCalendar *)clrStart clrEnd:(NSCalendar *)  clrEnd{
+-(void)setOffDutyShiftTime:(NSDate *)clrStart clrEnd:(NSDate *)  clrEnd{
     NSString *SHIFT_STARTStr =  [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:SHIFT_START];
     [self __addArgumentPairKey:SHIFT_STARTStr value:nil];
     
@@ -269,7 +269,7 @@
  * @param clrSubmit 提交时间
  * @throws OrganizedException 时间为空跳出异常；
  */
--(void)setLeaveRequestSubmitTime:(NSCalendar *) clrSubmit{
+-(void)setLeaveRequestSubmitTime:(NSDate *) clrSubmit{
     
     NSString *TYPEStr = [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:SUBMITTIME];
 #pragma -mark ==================
@@ -283,7 +283,7 @@
  * @return 当前请假调休请求的起始时间
  */
 
--(NSCalendar *)getLeaveStartTime{
+-(NSDate *)getLeaveStartTime{
     
     NSString *STARTStr = [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:START];
     NSString *szStartTime =[self __getArgumentValue:STARTStr];
@@ -329,7 +329,7 @@
  * 获取当前请假调休请求的提交时间
  * @return 当前请假调休请求的提交时间
  */
--(NSCalendar *)getLeaveRquestSubmitTime{
+-(NSDate *)getLeaveRquestSubmitTime{
      NSString *SUBMITTIMEStr = [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:SUBMITTIME];
     NSString *szSubmitTime = [self __getArgumentValue:SUBMITTIMEStr];
 #warning -mark ---------------------------------------
@@ -347,7 +347,7 @@
 //    return new TimeDifference(clrEnd,clrStart);
 //}
 
--(NSCalendar *)getOffDutyShiftStartTime{
+-(NSDate *)getOffDutyShiftStartTime{
     NSString *str = [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:SHIFT_START];
     NSString *szStartTime = [self  __getArgumentValue:str];
 #pragma -mark ===============
@@ -355,7 +355,7 @@
 //    return CommonFunctions.dateTimeStringToCalendar(szStartTime);
 }
 
--(NSCalendar *)getOffDutyShiftEndTime{
+-(NSDate *)getOffDutyShiftEndTime{
     NSString *leaveStr = [LEAVEORSHIFT_DATA_STAT LEAVEORSHIFT_DATA_statString:SHIFT_END];
     NSString *szEndTime =[self  __getArgumentValue:leaveStr];
  #pragma -mark ===============

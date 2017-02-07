@@ -10,7 +10,7 @@
 
 @implementation UserSwipe
 
--(instancetype)initUserSwipeWithUserBean:(UserBean *)userBean swipType:(SWIPENODETYPE)swipetype NodeName:(NSString *)szSwipeNodeName datatype:(SWIPEDATATYPE)datatype swipeName:(NSString *)szSwipeName cld:(NSCalendar *)clrSwipeTime{
+-(instancetype)initUserSwipeWithUserBean:(UserBean *)userBean swipType:(SWIPENODETYPE)swipetype NodeName:(NSString *)szSwipeNodeName datatype:(SWIPEDATATYPE)datatype swipeName:(NSString *)szSwipeName cld:(NSDate *)clrSwipeTime{
     if (self = [super init]) {
         if(![userBean isValid] || !swipetype || !datatype || ![CommonFunctions functionsIsArrayValid:@[szSwipeNodeName,szSwipeName]]  ){
             
@@ -43,7 +43,7 @@
         NSString *UUIDStr = [SWIPE_DATA_STAT SWIPE_DATA_STATString:UUID];
         [self __addArgumentPairKey:UUIDStr value:deID.m_szHostName];
 #warning  -mark -------------------------------------------------------------------------------------------
-        NSCalendar *swipetime =  clrSwipeTime ==nil ?[NSCalendar currentCalendar]:clrSwipeTime;
+        NSDate *swipetime =  clrSwipeTime ==nil ?[NSDate date]:clrSwipeTime;
             
         
         NSString *DATEStr = [SWIPE_DATA_STAT SWIPE_DATA_STATString:DATE];
@@ -150,7 +150,7 @@
  * <br><font style="color:red">***此处没有做类型检测***</font>
  * @return 用户第一次刷卡时间；
  */
--(NSCalendar *) getUserFirstSwipeTime{
+-(NSDate *) getUserFirstSwipeTime{
     return [self _getUserSingleSwipeTime:true];
 }
 
@@ -160,13 +160,13 @@
  * @return 用户第一次刷卡时间；
  */
 
--(NSCalendar *) getUserLastSwipeTime{
+-(NSDate *) getUserLastSwipeTime{
     return [self _getUserSingleSwipeTime:false];
 }
 
 
 
--(NSCalendar *)_getUserSingleSwipeTime:(BOOL) bFirstTime{
+-(NSDate *)_getUserSingleSwipeTime:(BOOL) bFirstTime{
     NSString *dateStr = [SWIPE_DATA_STAT SWIPE_DATA_STATString:DATE];
     NSString *szDate = [self __getArgumentValue:dateStr];
     if(szDate == nil) return nil;
@@ -178,8 +178,8 @@
     if(szTime != nil){
         NSString *szFulldatetime =[CommonFunctions functionsJoinString:@" " arr:@[szDate,szTime]];
 #warning -mark ------------------------------
-        NSCalendar *clrd;
-//        NSCalendar *clrd = [CommonFunctions dateTimeStringToCalendar:szFulldatetime];
+        
+        NSDate *clrd = [CommonFunctions dateTimeStringToCalendar:szFulldatetime];
         return clrd;
     }
     return nil;

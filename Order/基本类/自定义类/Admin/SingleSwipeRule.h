@@ -16,10 +16,10 @@
 /**时间对比*/
 @property(nonatomic,assign)TimeCompare  m_etimeCompareRule;
 /** 日期*/
-@property(nonatomic,strong) NSCalendar *m_timeSlot;
+@property(nonatomic,strong) NSDate *m_timeSlot;
 
 
--(instancetype)initWithSwipRuleTimeArea:(TimeValidArea)tmvld timeCompare:(TimeCompare)tmCmp  cld:(NSCalendar*)clr;
+-(instancetype)initWithSwipRuleTimeArea:(TimeValidArea)tmvld timeCompare:(TimeCompare)tmCmp  cld:(NSDate*)clr;
 
 /**
  * 创建一个每日的单次打卡规则（仅时间有效）

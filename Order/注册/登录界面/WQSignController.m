@@ -123,7 +123,7 @@
         DeviceUniqueID *D =  [[DeviceUniqueID alloc]initWithIP:[CommonFunctions deviceIPAdress] szMac:[CommonFunctions getMacAddress] szOS:@"IOS" szHostName:[CommonFunctions functionsHostName]];
      
         if (_useNameTF.text.length >7 || _passWordTF.text.length>7) {
-           userB = [[UserBean alloc]initWithszUsername:@"wang111" szPassword:@"123456789" objDeviceID:D];
+           userB = [[UserBean alloc]initWithszUsername:@"ruizi123" szPassword:@"123456789" objDeviceID:D];
         }
         
        

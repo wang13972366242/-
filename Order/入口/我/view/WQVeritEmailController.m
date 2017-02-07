@@ -75,7 +75,7 @@
 -(void)oldEmailValidation{
     NSString * strUrl =[NSString stringWithFormat:@"%@ValidateEmailAccount",baseUrl1];
     // 获取当前的时间
-    NSString *calendarToDateTimeString = [CommonFunctions functionsStringFromDate];
+    NSString *calendarToDateTimeString = [CommonFunctions calendarToDateTimeString:[NSDate date]];
     // 加密
     NSDictionary *muDic;
     @try {

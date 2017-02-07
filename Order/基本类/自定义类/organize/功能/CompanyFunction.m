@@ -205,7 +205,7 @@
 
     for(NSDictionary  *objtmp in  array){
         NSString *time =  objtmp[@"ACTTIME"];
-        NSDate *cld = [CommonFunctions functionsdateTimeStringToCalendar:time];
+        NSDate *cld = [CommonFunctions dateTimeStringToCalendar:time];
         NSString *functionsID =  objtmp[@"ID"];
         FunctionID ID = [CompanyFunction getEnumFormStr:functionsID];
          NSString *functionsTime =  objtmp[@"DAYLEN"];
@@ -292,7 +292,7 @@
     [object addEntriesFromDictionary:@{@"ID":[CompanyFunction getStringFormEnum:_m_FunctionID]}];
 
     if (_m_ActivatedTime != nil) {
-    [object addEntriesFromDictionary:@{@"ACTTIME":[CommonFunctions functionsStringFromDate]}];
+    [object addEntriesFromDictionary:@{@"ACTTIME":[CommonFunctions calendarToDateString:[NSDate date]]}];
     }
   
     [object addEntriesFromDictionary:@{@"DAYLEN":@(_m_iPurchasedDayCount)}];

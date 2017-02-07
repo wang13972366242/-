@@ -121,8 +121,8 @@
         [self.m_liSingleSwipRules addObject:currentRule];
         
     }else{
-        NSCalendar *clrTime = @"";
-//        NSCalendar *clrTime = CommonFunctions.timeStringToCalendar(szTimeString);
+        
+        NSDate *clrTime = [CommonFunctions dateTimeStringToCalendar:szTimeString];
         currentRule.m_timeSlot =clrTime;
     }
 }
@@ -212,7 +212,7 @@
  * @return true - 有效；　false - 无效；
  * @throws OrganizedException clr为空；
  */
--(BOOL)checkRuleOnUserSwipeTime:(NSCalendar *) clr{
+-(BOOL)checkRuleOnUserSwipeTime:(NSDate *) clr{
     
     if([self hasRule]){
         for(SingleSwipeRule *rule in _m_liSingleSwipRules){
@@ -305,7 +305,7 @@
     
     
     NSString *szUserSwipeName = _m_SwipeDataType == SINGLE ? NSStringFromClass([self class]):_m_szParentPairSwipeName;
-    UserSwipe *swipedata = [[UserSwipe alloc]initUserSwipeWithUserBean:userBean swipType:type NodeName:szSwipeNodeName datatype:_m_SwipeDataType swipeName:szUserSwipeName cld:[NSCalendar currentCalendar]];
+    UserSwipe *swipedata = [[UserSwipe alloc]initUserSwipeWithUserBean:userBean swipType:type NodeName:szSwipeNodeName datatype:_m_SwipeDataType swipeName:szUserSwipeName cld:[NSDate date]];
     
     if([swipedata isValid]){
         return swipedata;

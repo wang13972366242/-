@@ -18,7 +18,7 @@
  * @param szOtherInfo	- 其他的信息
  * @throws OrganizedException	- 输入信息有误则跳出异常；
  */
--(instancetype)initWithInternalOrder:(NSString *)szInternalOrder szOutOrder:(NSString*)szOutOrder clrTime:(NSCalendar *)clrTime fPrice:(CGFloat)fPrice szOtherInfo:(NSString *)szOtherInfo{
+-(instancetype)initWithInternalOrder:(NSString *)szInternalOrder szOutOrder:(NSString*)szOutOrder clrTime:(NSDate *)clrTime fPrice:(CGFloat)fPrice szOtherInfo:(NSString *)szOtherInfo{
     if (self = [super init]) {
         _m_szInternalOrderNumber =szInternalOrder;
         _m_szThirdPartyOrderNumber = szOutOrder;
@@ -38,7 +38,7 @@
     }
     _m_fPrice = m_fPrice;
 }
--(void)setM_clrdPurchaseTime:(NSCalendar *)m_clrdPurchaseTime{
+-(void)setM_clrdPurchaseTime:(NSDate *)m_clrdPurchaseTime{
     
     if (m_clrdPurchaseTime == nil) {
         [CommonFunctions functionsthrowExcentptionWith:@"ARGUMENT_OUTOFVALIDRANGE" reason:@"PurchaseInfo:SetTime - empty Calendar object"];
@@ -90,7 +90,7 @@
     if([CommonFunctions functionsIsStringValid:_m_szOtherInfo]){
         [object addEntriesFromDictionary:@{@"Other":_m_szOtherInfo}];
     }
-    NSString *szTime =[CommonFunctions functionsStringFromDate];
+    NSString *szTime =[CommonFunctions calendarToDateString:[NSDate date]];
     if([CommonFunctions functionsIsStringValid:szTime]){
         [object addEntriesFromDictionary:@{@"Time":szTime}];
     }

@@ -441,7 +441,7 @@ typedef enum VerifyWay{
     //url
     NSString * strUrl;
     NSDictionary*params;
-    NSString *timeStr = [CommonFunctions functionsStringFromDate];
+    NSString *timeStr = [CommonFunctions calendarToDateString:[NSDate date]];
     //设置cookie到请求头
     NSDictionary *dic =[[NSUserDefaults standardUserDefaults] objectForKey:kUserDefaultsCookie];
     NSString *cookie = dic[kUserDefaultsCookie];
@@ -540,7 +540,7 @@ typedef enum VerifyWay{
         NSString *unque = [message getCompanyInfoStatString:uniqueID];
     
         if ( unque) {
-            NSCalendar *cld = [NSCalendar currentCalendar];
+            NSDate *cld = [NSDate date];
             PurchaseIASD *purchase = [[PurchaseIASD alloc]initWithInternalOrder:@"20161026123" szOutOrder:@"20161026135" clrTime:cld fPrice:98 szOtherInfo:nil];
             OrganizedClientMessage *purchseMessage =  [OrganizedClientMessage getInstanceOfCompanyGenerateActivationCodeRequest:unque purchaseinfo:purchase];
            NSString  *purchaseStr = [purchseMessage toString];

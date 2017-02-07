@@ -18,13 +18,13 @@
 /** 价格*/
 @property(nonatomic,assign) CGFloat m_fPrice;
 /** 日期*/
-@property(nonatomic,strong) NSCalendar *m_clrdPurchaseTime;
+@property(nonatomic,strong) NSDate *m_clrdPurchaseTime;
 
 
 /**
  * 客户端构造支付信息对象
  */
--(instancetype)initWithInternalOrder:(NSString *)szInternalOrder szOutOrder:(NSString*)szOutOrder clrTime:(NSCalendar *)clrTime fPrice:(CGFloat)fPrice szOtherInfo:(NSString *)szOtherInfo;
+-(instancetype)initWithInternalOrder:(NSString *)szInternalOrder szOutOrder:(NSString*)szOutOrder clrTime:(NSDate *)clrTime fPrice:(CGFloat)fPrice szOtherInfo:(NSString *)szOtherInfo;
 
 /**
  * 判断当前的支付信息对象是否为有效的对象；

@@ -41,7 +41,7 @@
 
 }
 
--(NSString *)calendarToDateTimeString
+
 
  /**
  * 判断字符串是否为null或""或全由空白字符组成。
@@ -476,12 +476,128 @@
   
 }
 /**
+ * 把Calendar对象转化为日期时间字符串（格式"yyyy-MM-dd HH:mm:ss");
+ * @param cld - Calendar对象
+ * @return 日期时间字符串。
+ */
++(NSString *)calendarToDateTimeString:(NSDate *)cld{
+    
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSString *str = [formatter stringFromDate:cld];
+    
+    return str;
+}
+
+
+/**
+ * 把Calendar对象转化为日期时间字符串（格式"yyyy-MM-dd HH:mm:ss");
+ * @param cld - Calendar对象
+ * @return 日期时间字符串。
+ */
++(NSString *)calendarToDateString:(NSDate *)cld{
+    
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSString *str = [formatter stringFromDate:cld];
+    
+    return str;
+}
+
+/**
+ * 把Calendar对象转化为日期时间字符串（格式"yyyy-MM-dd HH:mm:ss");
+ * @param cld - Calendar对象
+ * @return 日期时间字符串。
+ */
++(NSString *)calendarToTimeString:(NSDate *)cld{
+    
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"HH:mm:ss"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSString *str = [formatter stringFromDate:cld];
+    
+    return str;
+}
+
+/**
+ * 把日期时间字符串（格式"yyyy-MM-dd HH:mm:ss") 转化为Calendar对象
+ * @param szTime - 符合格式的字符串
+ * @return 转化后的Calendar对象；（若字符串参数进行{@linkplain CommonFunctions#isStringValid(String...)}判断失败，或者不符合规定格式，则返回null）;
+ */
++(NSDate *)dateTimeStringToCalendar:(NSString *) szTime{
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSDate *date = [formatter dateFromString:szTime];
+        return date;
+
+}
+
+/**
  * 把日期字符串（格式"yyyy-MM-dd") 转化为Calendar对象
  * @param szTime - 符合格式的字符串
- * @return 转化后的Calendar对象；（若字符串参数进行{@linkplain #IsStringValid(String)}判断失败，或者不符合规定格式，则返回null）;
+ * @return 转化后的Calendar对象；（若字符串参数进行{@linkplain #isStringValid(String...)}判断失败，或者不符合规定格式，则返回null）;
  */
++(NSDate *)dateStringToCalendar:(NSString *) szTime{
+
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSDate *date = [formatter dateFromString:szTime];
+    return date;
 
 
+
+}
+
+/**
+ * 把日期字符串（格式"HH:mm:ss") 转化为Calendar对象
+ * @param szTime - 符合格式的字符串
+ * @return 转化后的Calendar对象；（若字符串参数进行{@linkplain #isStringValid(String...)}判断失败，或者不符合规定格式，则返回null）;
+ */
++(NSDate *)dateStringToTime:(NSString *) szTime{
+    
+    //设置日期输出的格式
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateFormat:@"HH:mm:ss"];
+    //刚好符合mysql的datetime的格式
+    
+    [formatter setTimeZone:[NSTimeZone systemTimeZone]];
+    
+    NSDate *date = [formatter dateFromString:szTime];
+    return date;
+    
+    
+    
+}
 
 /**
  * 获取网卡的MAC地址 - 仅支持windows
